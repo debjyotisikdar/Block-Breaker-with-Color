@@ -68,6 +68,11 @@ public class GameSession : MonoBehaviour
         if(hitBallCount == 0)
         {
             levelNumber++;
+            if(levelNumber == 6)
+            {
+                SceneManager.LoadScene("Game Completed");
+                Destroy(gameObject);
+            }
             retried = false;
             SceneManager.LoadScene(++levelSceneIndex);
             currentScore = 0;

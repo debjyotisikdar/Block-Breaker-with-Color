@@ -34,7 +34,6 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         thisAS.PlayOneShot(thisAS.clip);
-        Destroy(FindObjectOfType<MenuMusic>());
         SceneManager.LoadScene("Help");
     }
 
