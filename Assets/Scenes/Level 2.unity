@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7561197618829519094, guid: 6ca13ac191b09402485ddb44d4573725, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.9226975
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7561197618829519094, guid: 6ca13ac191b09402485ddb44d4573725, type: 3}
       propertyPath: m_LocalPosition.z
@@ -925,7 +925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7561197618829519094, guid: 292119bea69ca4bb68f9126595face2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.9818516
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7561197618829519094, guid: 292119bea69ca4bb68f9126595face2a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1695,6 +1695,7 @@ MonoBehaviour:
   levelSceneIndex: 0
   levelNumber: 1
   totalScore: 0
+  retried: 0
 --- !u!1 &2110611639
 GameObject:
   m_ObjectHideFlags: 0

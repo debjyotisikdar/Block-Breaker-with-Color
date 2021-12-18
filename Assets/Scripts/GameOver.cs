@@ -11,6 +11,7 @@ public class GameOver : MonoBehaviour
     [SerializeField] Text levelText;
     [SerializeField] Text messageArea;
     [SerializeField] GameSession gs;
+    [SerializeField] AudioClip click;
 
     // Start is called before the first frame update
     void Start()
@@ -28,14 +29,19 @@ public class GameOver : MonoBehaviour
 
     public void Quit()
     {
+        GetComponent<AudioSource>().PlayOneShot(click);
         Destroy(gs);
         SceneManager.LoadScene("Main Menu");
     }
 
     public void Retry()
     {
+        GetComponent<AudioSource>().PlayOneShot(click);
         if (gs.retried)
+        {
             StartCoroutine(DisplayErr("CAN RETRY ONLY ONCE!"));
+            GetComponent<AudioSource>().Play();
+        }
         else
         {
             gs.currentScore = 0;
