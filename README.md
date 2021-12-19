@@ -36,3 +36,7 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 - **```Preferences.cs```** - Script containing driver class ```Preferences``` which extends ```MonoBehaviour```. Contains necessary methods for the Canvas elements.
 - **```SpecialHitBall.cs```** - Script containing driver class ```SpecialHitBall``` which extends ```MonoBehaviour```. Variation of the ```HitBall``` class but not a sub-class. Contains additional functionality to periodically update its sprite and color name string variable using a Coroutine method.
   
+### Directories
+###### The following is a list of all the directories located in the /Assets/ folder, along with a short description of their contents.
+
+  
