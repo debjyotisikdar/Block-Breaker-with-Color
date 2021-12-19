@@ -23,8 +23,8 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 
 ### C# Scripts
 ###### The following is a list of all the C# scripts located in the /Assets/Scripts folder, along with a short description of their basic purpose.
-- *```Ball.cs```* - Script containing driver class Ball which extends MonoBehaviour. Contains script for the Player Ball (called PlayBall in the Sprites).
-- *```GameComplete.cs```* - Script containing driver class GameComplete which extends MonoBehaviour. Just contains an Exit() function to return to the Main Menu.
-- *```GameOver.cs```* - Script containing driver class GameOver which extends MonoBehaviour. Contains elementary methods for the different canvas elements in GameOver scene.
-- *```GameSession```* - Script containing driver class GameSession which extends MonoBehaviour.
+- **```Ball.cs```** - Script containing driver class Ball which extends MonoBehaviour. Contains script for the Player Ball (called PlayBall in the Sprites).
+- **```GameComplete.cs```** - Script containing driver class GameComplete which extends MonoBehaviour. Just contains an Exit() function to return to the Main Menu.
+- **```GameOver.cs```** - Script containing driver class GameOver which extends MonoBehaviour. Contains elementary methods for the different canvas elements in GameOver scene.
+- **```GameSession```** - Script containing driver class GameSession which extends MonoBehaviour.
 
