@@ -30,5 +30,6 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 - **```HelpMenu.cs```** - Script containing driver class ```HelpMenu``` which extends ```MonoBehaviour```. Only detects Return key press to start the first level. This scene is opened when the Start Game button is pressed from the main menu. It shows the basic controls and the pairs of PlayBalls and HitBalls. Added to a simple ```GameObject``` for the Help scene.
 - **```HitBall.cs```** - Script containing driver class ```HitBall``` which extends ```MonoBehaviour```. Contains the color of the HitBall. Deals with collision by itself, calls ```updateScore()``` from ```GameSession``` accordingly.
 - **```Level.cs```** - Script containing driver class ```Level``` which extends ```MonoBehaviour```. For the Level object. Retrieves score and level number from GameSession and displays it via the Text objects.
+- **```LoseWall.cs```** - Script containing driver class ```LoseWall``` which extends ```MonoBehaviour```. For the loseWall object with Box Collider 2D (is trigger set to true). Calls the ```dealWithCollision()``` of ```Ball``` class.
   
   
