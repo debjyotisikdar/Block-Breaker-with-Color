@@ -17,4 +17,6 @@ The ball contains an array of sprites (of different colored balls), and another 
 The game has 4 blank GameObjects which contains a Box Collider 2D for collision. The bottom wall or LoseWall has an OnCollisionEnter2D trigger method which calls the PlayBall to either use the next sprite and accordingly update the Next Sprite canvas element to inform the player of the upcoming ball color, or to load Game Over. GameSession contains a boolean variable "retried", which makes sure that Player can replay each level only once.
 
 ###### Controls
-Formerly, the paddle would follow the X-axis position of the mouse for navigation, but due to platform issues it uses directional keys and/or A and D keys for navigation.
+- Formerly, the paddle would follow the X-axis position of the mouse for navigation, but due to platform issues it uses directional keys and/or A and D keys for navigation.
+- Use the Space key to launch each Player Ball or PlayBall.
+- Press Escape as instructed to return to the main menu (this will destroy the GameSession object, getting rid of the player scores and progresses).
