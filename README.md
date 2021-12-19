@@ -31,5 +31,8 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 - **```HitBall.cs```** - Script containing driver class ```HitBall``` which extends ```MonoBehaviour```. Contains the color of the HitBall. Deals with collision by itself, calls ```updateScore()``` from ```GameSession``` accordingly.
 - **```Level.cs```** - Script containing driver class ```Level``` which extends ```MonoBehaviour```. For the Level object. Retrieves score and level number from GameSession and displays it via the Text objects.
 - **```LoseWall.cs```** - Script containing driver class ```LoseWall``` which extends ```MonoBehaviour```. For the loseWall object with Box Collider 2D (is trigger set to true). Calls the ```dealWithCollision()``` of ```Ball``` class.
-  
+- **```MainMenu.cs```** - Script containing driver class ```MainMenu``` which extends ```MonoBehaviour```. Contains methods for the different buttons. Also, it displays the version number of the game.
+- **```Paddle.cs```** - Script containing driver class ```Paddle``` which extends ```MonoBehaviour```. Provides the necessary functionality to the Paddle object.
+- **```Preferences.cs```** - Script containing driver class ```Preferences``` which extends ```MonoBehaviour```. Contains necessary methods for the Canvas elements.
+- **```SpecialHitBall.cs```** - Script containing driver class ```SpecialHitBall``` which extends ```MonoBehaviour```. Variation of the ```HitBall``` class but not a sub-class. Contains additional functionality to periodically update its sprite and color name string variable using a Coroutine method.
   
