@@ -38,5 +38,7 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
   
 ### Directories
 ###### The following is a list of all the directories located in the /Assets/ folder, along with a short description of their contents.
-- **```/Assets/Audio/```** - 
+- **```/Assets/Audio/```** - Contains audio files and the Main Audio Mixer Group for controlling volume.
+- **```/Assets/Fonts/```** - Contains fonts.
+- **```/Assets/Images/```** - 
   
