@@ -28,6 +28,7 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 - **```GameOver.cs```** - Script containing driver class GameOver which extends MonoBehaviour. Contains elementary methods for the different canvas elements in GameOver scene.
 - **```GameSession.cs```** - Script containing driver class GameSession which extends MonoBehaviour. Contains current level score, total session score, current level number for displaying the current level scene index for loading scene in the future (if needed). Also controls game speed.
 - **```HelpMenu.cs```** - Script containing driver class HelpMenu which extends MonoBehaviour. Only detects Return key press to start the first level. This scene is opened when the Start Game button is pressed from the main menu. It shows the basic controls and the pairs of PlayBalls and HitBalls. Added to a simple GameObject for the Help scene.
-- **```HitBall.cs```** - 
+- **```HitBall.cs```** - Script containing driver class HitBall which extends MonoBehaviour. Contains the color of the HitBall. Deals with collision by itself, calls updateScore() from GameSession accordingly.
 
 
+  
