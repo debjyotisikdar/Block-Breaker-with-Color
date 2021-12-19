@@ -20,6 +20,7 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 - Formerly, the paddle would follow the X-axis position of the mouse for navigation, but due to platform issues it uses directional keys and/or A and D keys for navigation.
 - Use the Space key to launch each Player Ball or PlayBall.
 - Press Escape as instructed to return to the main menu (this will destroy the GameSession object, getting rid of the player scores and progresses).
+- Press P and L keys simultaneously to toggle Auto Play (intended for testing and debugging purposes).
 
 ### C# Scripts
 ###### The following is a list of all the C# scripts located in the ```/Assets/Scripts``` folder, along with a short description of their basic purpose.
