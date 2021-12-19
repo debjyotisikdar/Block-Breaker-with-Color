@@ -26,5 +26,5 @@ The game has 4 blank GameObjects which contains a Box Collider 2D for collision.
 - **```Ball.cs```** - Script containing driver class Ball which extends MonoBehaviour. Contains script for the Player Ball (called PlayBall in the Sprites).
 - **```GameComplete.cs```** - Script containing driver class GameComplete which extends MonoBehaviour. Just contains an Exit() function to return to the Main Menu.
 - **```GameOver.cs```** - Script containing driver class GameOver which extends MonoBehaviour. Contains elementary methods for the different canvas elements in GameOver scene.
-- **```GameSession```** - Script containing driver class GameSession which extends MonoBehaviour.
+- **```GameSession.cs```** - Script containing driver class GameSession which extends MonoBehaviour.
 
